@@ -93,7 +93,46 @@ Some of the underlying aspects of logistic regression come up in many other impo
 
 ```
 ### Decision Trees
+
+
+Decision trees are a form of supervised learning that can be used for both classification and regression purposes.
+
+They are typically utilized for classification purposes.
+
+The model takes in an instance and then goes down the tree, testing significant features against a determined conditional statement.
+
+Depending on the result, it will go down to the left or right child branch and onward after that. Typically the most significant features in the process will fall closer to the root of the tree.
+
+Decision trees are becoming increasingly popular and can serve as a strong learning algorithm for any data scientist to have in their repertoire, especially when coupled with techniques like random forests, boosting, and bagging.
+
 ### Support vector machines
+
+Support vector machines, also known as SVM, are a well-known supervised classification algorithm that create a dividing line between different categories of data.
+
+The way this vector is calculated, in simple terms, is by optimizing the line so that the closest point in each of the groups will be farthest away from each other.
+
+This vector is by default and often visualized as being linear, however this doesn’t have to always be the case. The vector can take a nonlinear form as well if the kernel type is changed from the default type of ‘gaussian’ or linear.
+
+
 ### K-Nearest Neighbors
+
+K-Nearest Neighbors, KNN for short, is a supervised learning algorithm specializing in classification.
+
+The algorithm looks at different centroids and compares distance using some sort of function (usually Euclidean), then analyzes those results and assigns each point to the group so that it is optimized to be placed with all the closest points to it.
+
+
 ### Random forests
+
+Random forests are a popular supervised ensemble learning algorithm.
+
+‘Ensemble’ means that it takes a bunch of ‘weak learners’ and has them work together to form one strong predictor.
+
+In this case, the weak learners are all randomly implemented decision trees that are brought together to form the strong predictor — a random forest.
+
 ### K-Means Clustering
+
+K-Means is a popular unsupervised learning classification algorithm typically used to address the clustering problem.
+
+The ‘K’ refers to the user inputted number of clusters.
+
+The algorithm begins with randomly selected points and then optimizes the clusters using a distance formula to find the best grouping of data points. It is ultimately up to the data scientist to select the correct ‘K’ value.
