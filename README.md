@@ -105,6 +105,7 @@ Depending on the result, it will go down to the left or right child branch and o
 
 Decision trees are becoming increasingly popular and can serve as a strong learning algorithm for any data scientist to have in their repertoire, especially when coupled with techniques like random forests, boosting, and bagging.
 
+
 ### Support vector machines
 
 Support vector machines, also known as SVM, are a well-known supervised classification algorithm that create a dividing line between different categories of data.
@@ -129,6 +130,7 @@ Random forests are a popular supervised ensemble learning algorithm.
 
 In this case, the weak learners are all randomly implemented decision trees that are brought together to form the strong predictor — a random forest.
 
+
 ### K-Means Clustering
 
 K-Means is a popular unsupervised learning classification algorithm typically used to address the clustering problem.
@@ -136,3 +138,14 @@ K-Means is a popular unsupervised learning classification algorithm typically us
 The ‘K’ refers to the user inputted number of clusters.
 
 The algorithm begins with randomly selected points and then optimizes the clusters using a distance formula to find the best grouping of data points. It is ultimately up to the data scientist to select the correct ‘K’ value.
+
+
+### Principal Components Analysis
+
+PCA is a dimensionality reduction algorithm that can do a couple of things for data scientists.
+
+Most importantly, it can dramatically reduce the computational footprint of a model when dealing with hundreds or thousands of different features.
+
+It is unsupervised, however the user should still analyze the results and make sure they are keeping 95% or so of the original dataset’s behavior.
+
+There’s a lot more to address with PCA.
